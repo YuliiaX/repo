@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     background-color: rgb(241, 204, 192);
 }
@@ -8,14 +14,44 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }*/
 
-div {
+/* div {
     /*width: 300px;*/
     background-color: chartreuse;
     padding: 20px;
     text-align: center;
-}
+} */
 
 .green-color {
     color: green;
     font-size: 30px;
+}
+
+.line {
+    background-color: aqua;
+    padding: 1px;
+}
+
+.test {
+    padding: 20px;
+    background-color: chocolate;
+    text-align: center;
+}
+
+#testId {
+    background-color: chartreuse;
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+}
+
+.menu li a {
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+}
+
+.first .first_f {
+
 }
