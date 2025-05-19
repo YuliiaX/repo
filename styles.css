@@ -21,6 +21,10 @@ body {
     text-align: center;
 } */
 
+.img {
+    size: 15px;
+}
+
 .green-color {
     color: green;
     font-size: 30px;
@@ -54,4 +58,18 @@ body {
 
 .first .first_f {
 
+}
+
+textarea {
+    resize: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Sclass {
+    background-color: bisque;
 }
